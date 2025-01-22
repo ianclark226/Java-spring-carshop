@@ -29,7 +29,7 @@ public class Location {
     private Integer countryId;
 
     @ManyToOne
-    @JoinColumn(name = "stateid", insertable = false, updatable = false)
+    @JoinColumn(name = "stateId", insertable = false, updatable = false)
     private State state;
     private Integer stateId;
     private String city;

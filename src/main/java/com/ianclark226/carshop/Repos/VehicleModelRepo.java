@@ -3,5 +3,8 @@ package com.ianclark226.carshop.Repos;
 import com.ianclark226.carshop.Models.VehicleModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface VehicleModelRepo extends JpaRepository<VehicleModel, Integer> {
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface VehicleModelRepo extends JpaRepository<VehicleModel, Long> {
 }
